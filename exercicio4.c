@@ -1,17 +1,20 @@
 #include <stdio.h>
-
 int main(){
-      
-//ENTRADA DE DADOS
-    int idade;
 
+  /*Faça um programa que receba a idade de uma pessoa e imprima mensagem de maioridade
+ou não.*/
+      
+//declação de variaveis
+int idade;
+
+//entrada de dados
 printf("Digte sua idade: ");
-  scanf("%d", &idade);
+scanf("%d", &idade);
   
-//PROCESSAMENTO
+//processamento
   if(idade >= 18) {
 
-//SAIDA DE DADOS
+//saida
     printf("Maior de idade");
   } else {
     printf("Menor de idade");

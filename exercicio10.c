@@ -1,17 +1,25 @@
 #include <stdio.h>
-
 int main(){
  
-    int numero;
+    /*Faça um programa que receba um número, verifique se este número é par ou ímpar e
+imprima a mensagem.*/
 
-    printf("Digite o numero: ");
-    scanf("%d", &numero);
+//declaração de variaveis
+int numero;
 
-    if (numero % 2 == 0){
-        printf("O numero %d e PAR\n", numero);
+printf("Digite o numero: ");
+scanf("%d", &numero);
 
-    } else {
-        printf("O numero %d e PAR\n", numero);
-    }
-     return 0;
+
+//processamento e saida
+if (numero % 2 == 0){
+printf("O numero %d e PAR\n", numero);
+
+} else {
+printf("O numero %d e PAR\n", numero);
+ 
+}
+
+return 0;
+
 }
